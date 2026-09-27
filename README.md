@@ -1,17 +1,17 @@
-# open-core-efi
+# Open Core EFI
 
-EFI **OpenCore 1.0.7** feita do zero para um PC específico, em dual boot **macOS Sequoia 15 + Windows 11**.
+EFI **OpenCore 1.0.7** feita do zero para meu PC em específico, em dual boot **macOS Sequoia 15 + Windows 11**.
 
 | | |
 |---|---|
-| CPU | Intel Core i5-10400F (Comet Lake, sem iGPU) |
+| CPU | Intel Core i5-10400F |
 | Placa-mãe | ASUS PRIME H410M-E (BIOS 1620) |
 | GPU | AMD Radeon RX 6600 (Navi 23) |
 | Rede / Áudio | Realtek RTL8111H / Realtek ALC887 |
 | SMBIOS | MacPro7,1 |
 
 ## O que funciona
-Aceleração da GPU, Ethernet, USB, áudio USB, NVRAM, atualizações do macOS pelo Ajustes do Sistema e boot pelo menu gráfico do OpenCore (sem pendrive), com o Windows (BitLocker ativo) iniciando pelo mesmo menu.
+Aceleração da GPU, Ethernet, USB, áudio USB, NVRAM, atualizações do macOS pelo Ajustes do Sistema e boot pelo menu gráfico do OpenCore (sem pendrive), c  om o Windows (BitLocker ativo) iniciando pelo mesmo menu.
 
 ## Estrutura
 ```
@@ -27,7 +27,7 @@ CLAUDE.md            guia de manutenção
 ```
 
 ## Usar esta EFI
-Ela foi feita para **este** hardware; em outro PC, use como referência, não como EFI pronta.
+Ela foi feita para **este** hardware; use apenas se tiver o hardware identico ao meu.
 1. Gere o seu SMBIOS MacPro7,1 com o [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) e preencha `PlatformInfo > Generic` no `EFI/OC/config.plist` (serial, MLB, UUID, ROM).
 2. Valide com o `ocvalidate` da **mesma versão** do OpenCore (1.0.7).
 3. Configure a BIOS conforme [docs/historico/fase9-bios.md](docs/historico/fase9-bios.md).
