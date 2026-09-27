@@ -1,0 +1,12 @@
+# Downloads e ferramentas de terceiros (reproduzíveis via docs/versoes.md)
+/downloads/
+tools/ext/
+# Dump ACPI bruto e resultados do SSDTTime (contém dados da máquina)
+/acpi/
+# Config com SMBIOS real — NUNCA commitar
+/private/
+*.real.plist
+# Imagens de recovery
+com.apple.recovery.boot/
+*.dmg
+*.chunklist

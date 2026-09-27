@@ -1,0 +1,2 @@
+# EFI deve ser gravada byte a byte (kexts, plists, .efi)
+EFI/** -text

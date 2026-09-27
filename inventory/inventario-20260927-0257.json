@@ -1,0 +1,858 @@
+﻿{
+    "RunAsAdmin":  false,
+    "Windows":  {
+                    "Caption":  "Microsoft Windows 11 Pro",
+                    "Version":  "10.0.26200",
+                    "DisplayVersion":  "25H2",
+                    "Build":  "26200.7171",
+                    "Arch":  "64-bit"
+                },
+    "BootMode":  "UEFI",
+    "SecureBoot":  "rode como Admin",
+    "SecureBootStateReg":  1,
+    "BcdCurrent":  "rode como Admin",
+    "VBS":  {
+                "VirtualizationBasedSecurityStatus":  2,
+                "SecurityServicesRunning":  [
+                                                2
+                                            ]
+            },
+    "FastStartup":  0,
+    "RealTimeIsUniversal":  null,
+    "CPU":  {
+                "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                "ProcessorId":  "BFEBFBFF000A0653",
+                "Cores":  6,
+                "Threads":  12,
+                "MaxClockMHz":  2904,
+                "Virtualization":  false
+            },
+    "Motherboard":  {
+                        "Manufacturer":  "ASUSTeK COMPUTER INC.",
+                        "Product":  "PRIME H410M-E",
+                        "Version":  "Rev 1.xx"
+                    },
+    "BIOS":  {
+                 "Vendor":  "American Megatrends Inc.",
+                 "Version":  "1620",
+                 "Date":  "\/Date(1625788800000)\/",
+                 "SMBIOSVersion":  "3.2"
+             },
+    "RAM":  [
+                {
+                    "Slot":  "ChannelA-DIMM1",
+                    "SizeGB":  8,
+                    "SpeedMHz":  2666,
+                    "ConfiguredMHz":  2666,
+                    "Manufacturer":  "Kingston",
+                    "PartNumber":  "KF2666C16D4/8G"
+                },
+                {
+                    "Slot":  "ChannelB-DIMM1",
+                    "SizeGB":  8,
+                    "SpeedMHz":  2666,
+                    "ConfiguredMHz":  2666,
+                    "Manufacturer":  "Kingston",
+                    "PartNumber":  "KF2666C16D4/8G"
+                }
+            ],
+    "GPU":  [
+                {
+                    "Name":  "AMD Radeon RX 6600",
+                    "PNPDeviceID":  "PCI\\VEN_1002\u0026DEV_73FF\u0026SUBSYS_2413148C\u0026REV_C7\\6\u002631986F45\u00260\u002600000008",
+                    "DriverVersion":  "32.0.21045.5002",
+                    "Location":  "PCI bus 3, device 0, function 0"
+                }
+            ],
+    "PCI":  [
+                {
+                    "Class":  null,
+                    "Name":  "PCI Simple Communications Controller",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3BA\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026B0",
+                    "Location":  "PCI bus 0, device 22, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1600)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(HECI)"
+                                      ],
+                    "Driver":  null
+                },
+                {
+                    "Class":  "SCSIAdapter",
+                    "Name":  "Standard NVM Express Controller",
+                    "InstanceId":  "PCI\\VEN_2646\u0026DEV_5017\u0026SUBSYS_50172646\u0026REV_03\\4\u00261B7609CA\u00260\u002600E8",
+                    "Location":  "PCI bus 6, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1D00)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(RP11)#ACPI(PXSX)"
+                                      ],
+                    "Driver":  "Standard NVM Express Controller"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "High Definition Audio Bus",
+                    "InstanceId":  "PCI\\VEN_1002\u0026DEV_AB28\u0026SUBSYS_AB281002\u0026REV_00\\6\u002631986F45\u00260\u002601000008",
+                    "Location":  "PCI bus 3, device 0, function 1",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0100)#PCI(0000)#PCI(0000)#PCI(0001)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PEG0)#ACPI(PEGP)#PCI(0000)#PCI(0001)"
+                                      ],
+                    "Driver":  "High Definition Audio Bus"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "High Definition Audio Controller",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3F0\u0026SUBSYS_86C71043\u0026REV_00\\3\u002611583659\u00260\u0026FB",
+                    "Location":  "PCI bus 0, device 31, function 3",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1F03)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(HDAS)"
+                                      ],
+                    "Driver":  "High Definition Audio Controller"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "AMD PCI Express Upstream Switch Port",
+                    "InstanceId":  "PCI\\VEN_1002\u0026DEV_1478\u0026SUBSYS_00000000\u0026REV_C7\\4\u0026842DB2A\u00260\u00260008",
+                    "Location":  "PCI bus 1, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0100)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PEG0)#ACPI(PEGP)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI-to-PCI Bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_1901\u0026SUBSYS_86941043\u0026REV_03\\3\u002611583659\u00260\u002608",
+                    "Location":  "PCI bus 0, device 1, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0100)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PEG0)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                },
+                {
+                    "Class":  "HDC",
+                    "Name":  "Standard SATA AHCI Controller",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A382\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026B8",
+                    "Location":  "PCI bus 0, device 23, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1700)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(SAT0)"
+                                      ],
+                    "Driver":  "Standard SATA AHCI Controller"
+                },
+                {
+                    "Class":  null,
+                    "Name":  "PCI Memory Controller",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3A1\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026FA",
+                    "Location":  "PCI bus 0, device 31, function 2",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1F02)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PPMC)"
+                                      ],
+                    "Driver":  null
+                },
+                {
+                    "Class":  "Display",
+                    "Name":  "AMD Radeon RX 6600",
+                    "InstanceId":  "PCI\\VEN_1002\u0026DEV_73FF\u0026SUBSYS_2413148C\u0026REV_C7\\6\u002631986F45\u00260\u002600000008",
+                    "Location":  "PCI bus 3, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0100)#PCI(0000)#PCI(0000)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PEG0)#ACPI(PEGP)#PCI(0000)#PCI(0000)"
+                                      ],
+                    "Driver":  "AMD Radeon RX 6600"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI-to-PCI Bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A397\u0026SUBSYS_86941043\u0026REV_F0\\3\u002611583659\u00260\u0026E7",
+                    "Location":  "PCI bus 0, device 28, function 7",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1C07)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(RP08)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                },
+                {
+                    "Class":  "Net",
+                    "Name":  "Realtek PCIe GbE Family Controller",
+                    "InstanceId":  "PCI\\VEN_10EC\u0026DEV_8168\u0026SUBSYS_86771043\u0026REV_15\\4\u002629FCC262\u00260\u002600E7",
+                    "Location":  "PCI bus 5, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1C07)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(RP08)#ACPI(PXSX)"
+                                      ],
+                    "Driver":  "Realtek PCIe GbE Family Controller"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI-to-PCI Bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A394\u0026SUBSYS_86941043\u0026REV_F0\\3\u002611583659\u00260\u0026E0",
+                    "Location":  "PCI bus 0, device 28, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1C00)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(RP05)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                },
+                {
+                    "Class":  "USB",
+                    "Name":  "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3AF\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026A0",
+                    "Location":  "PCI bus 0, device 20, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1400)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(XHC_)"
+                                      ],
+                    "Driver":  "USB xHCI Compliant Host Controller"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "AMD PCI Express Downstream Switch Port",
+                    "InstanceId":  "PCI\\VEN_1002\u0026DEV_1479\u0026SUBSYS_14791002\u0026REV_00\\5\u0026181C7A3E\u00260\u0026000008",
+                    "Location":  "PCI bus 2, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0100)#PCI(0000)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(PEG0)#ACPI(PEGP)#PCI(0000)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                },
+                {
+                    "Class":  null,
+                    "Name":  "SM Bus Controller",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3A3\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026FC",
+                    "Location":  "PCI bus 0, device 31, function 4",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1F04)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(SBUS)"
+                                      ],
+                    "Driver":  null
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI standard host CPU bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_9B53\u0026SUBSYS_86941043\u0026REV_03\\3\u002611583659\u00260\u002600",
+                    "Location":  "PCI bus 0, device 0, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(0000)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#PCI(0000)"
+                                      ],
+                    "Driver":  "PCI standard host CPU bridge"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI standard ISA bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3DA\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026F8",
+                    "Location":  "PCI bus 0, device 31, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1F00)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(LPCB)"
+                                      ],
+                    "Driver":  "PCI standard ISA bridge"
+                },
+                {
+                    "Class":  "System",
+                    "Name":  "PCI-to-PCI Bridge",
+                    "InstanceId":  "PCI\\VEN_8086\u0026DEV_A39A\u0026SUBSYS_86941043\u0026REV_F0\\3\u002611583659\u00260\u0026E8",
+                    "Location":  "PCI bus 0, device 29, function 0",
+                    "LocationPaths":  [
+                                          "PCIROOT(0)#PCI(1D00)",
+                                          "ACPI(_SB_)#ACPI(PCI0)#ACPI(RP11)"
+                                      ],
+                    "Driver":  "PCI-to-PCI Bridge"
+                }
+            ],
+    "AudioCodecs":  [
+                        {
+                            "Name":  "AMD High Definition Audio Device",
+                            "InstanceId":  "HDAUDIO\\FUNC_01\u0026VEN_1002\u0026DEV_AA01\u0026SUBSYS_00AA0100\u0026REV_1008\\7\u00262C5397BC\u00260\u00260001"
+                        },
+                        {
+                            "Name":  "High Definition Audio Device",
+                            "InstanceId":  "HDAUDIO\\FUNC_01\u0026VEN_10EC\u0026DEV_0887\u0026SUBSYS_104386C7\u0026REV_1003\\4\u00262642F86E\u00260\u00260001"
+                        }
+                    ],
+    "Network":  [
+                    {
+                        "Name":  "Wi-Fi",
+                        "Description":  "AIC8800D80 USB WiFi",
+                        "PnPDeviceID":  "USB\\VID_368B\u0026PID_8D81\u0026MI_02\\6\u002628b24b5d\u00262\u00260002",
+                        "Status":  "Disconnected",
+                        "LinkSpeed":  "0 bps",
+                        "DriverVersion":  "6.40.60.312"
+                    },
+                    {
+                        "Name":  "Ethernet",
+                        "Description":  "Realtek PCIe GbE Family Controller",
+                        "PnPDeviceID":  "PCI\\VEN_10EC\u0026DEV_8168\u0026SUBSYS_86771043\u0026REV_15\\4\u002629fcc262\u00260\u002600E7",
+                        "Status":  "Up",
+                        "LinkSpeed":  "1 Gbps",
+                        "DriverVersion":  "1.0.0.14"
+                    }
+                ],
+    "USBControllers":  [
+                           {
+                               "Name":  "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)",
+                               "InstanceId":  "PCI\\VEN_8086\u0026DEV_A3AF\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026A0"
+                           }
+                       ],
+    "USBDevices":  [
+                       {
+                           "Class":  "MEDIA",
+                           "Name":  "MCHOSE V9 PRO",
+                           "InstanceId":  "USB\\VID_291D\u0026PID_385D\u0026MI_01\\6\u00261343BF96\u00260\u00260001",
+                           "LocationInfo":  "0000.0014.0000.004.000.000.000.000.000",
+                           "Parent":  "USB\\VID_291D\u0026PID_385D\\0123456789AB"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_1EA7\u0026PID_0907\u0026MI_01\\6\u002619E5915E\u00260\u00260001",
+                           "LocationInfo":  "0000.0014.0000.005.000.000.000.000.000",
+                           "Parent":  "USB\\VID_1EA7\u0026PID_0907\\SN0000000001"
+                       },
+                       {
+                           "Class":  "Bluetooth",
+                           "Name":  "Generic Bluetooth Adapter",
+                           "InstanceId":  "USB\\VID_368B\u0026PID_8D81\u0026MI_00\\6\u002628B24B5D\u00262\u00260000",
+                           "LocationInfo":  "0000.0014.0000.003.000.000.000.000.000",
+                           "Parent":  "USB\\VID_368B\u0026PID_8D81\\20220103"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_1EA7\u0026PID_0907\u0026MI_02\\6\u002619E5915E\u00260\u00260002",
+                           "LocationInfo":  "0000.0014.0000.005.000.000.000.000.000",
+                           "Parent":  "USB\\VID_1EA7\u0026PID_0907\\SN0000000001"
+                       },
+                       {
+                           "Class":  "Net",
+                           "Name":  "AIC8800D80 USB WiFi",
+                           "InstanceId":  "USB\\VID_368B\u0026PID_8D81\u0026MI_02\\6\u002628B24B5D\u00262\u00260002",
+                           "LocationInfo":  "0000.0014.0000.003.000.000.000.000.000",
+                           "Parent":  "USB\\VID_368B\u0026PID_8D81\\20220103"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_258A\u0026PID_0036\u0026MI_00\\6\u00261E47E42B\u00260\u00260000",
+                           "LocationInfo":  "0000.0014.0000.006.000.000.000.000.000",
+                           "Parent":  "USB\\VID_258A\u0026PID_0036\\5\u00261f03ab54\u00260\u00266"
+                       },
+                       {
+                           "Class":  "USB",
+                           "Name":  "USB Composite Device",
+                           "InstanceId":  "USB\\VID_1EA7\u0026PID_0907\\SN0000000001",
+                           "LocationInfo":  "Port_#0005.Hub_#0001",
+                           "Parent":  "USB\\ROOT_HUB30\\4\u00262dd5b14d\u00260\u00260"
+                       },
+                       {
+                           "Class":  "USB",
+                           "Name":  "USB Composite Device",
+                           "InstanceId":  "USB\\VID_368B\u0026PID_8D81\\20220103",
+                           "LocationInfo":  "Port_#0003.Hub_#0001",
+                           "Parent":  "USB\\ROOT_HUB30\\4\u00262dd5b14d\u00260\u00260"
+                       },
+                       {
+                           "Class":  "USB",
+                           "Name":  "USB Composite Device",
+                           "InstanceId":  "USB\\VID_291D\u0026PID_385D\\0123456789AB",
+                           "LocationInfo":  "Port_#0004.Hub_#0001",
+                           "Parent":  "USB\\ROOT_HUB30\\4\u00262dd5b14d\u00260\u00260"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_258A\u0026PID_0036\u0026MI_01\\6\u00261E47E42B\u00260\u00260001",
+                           "LocationInfo":  "0000.0014.0000.006.000.000.000.000.000",
+                           "Parent":  "USB\\VID_258A\u0026PID_0036\\5\u00261f03ab54\u00260\u00266"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_291D\u0026PID_385D\u0026MI_00\\6\u00261343BF96\u00260\u00260000",
+                           "LocationInfo":  "0000.0014.0000.004.000.000.000.000.000",
+                           "Parent":  "USB\\VID_291D\u0026PID_385D\\0123456789AB"
+                       },
+                       {
+                           "Class":  "HIDClass",
+                           "Name":  "USB Input Device",
+                           "InstanceId":  "USB\\VID_1EA7\u0026PID_0907\u0026MI_00\\6\u002619E5915E\u00260\u00260000",
+                           "LocationInfo":  "0000.0014.0000.005.000.000.000.000.000",
+                           "Parent":  "USB\\VID_1EA7\u0026PID_0907\\SN0000000001"
+                       },
+                       {
+                           "Class":  "USB",
+                           "Name":  "USB Composite Device",
+                           "InstanceId":  "USB\\VID_258A\u0026PID_0036\\5\u00261F03AB54\u00260\u00266",
+                           "LocationInfo":  "Port_#0006.Hub_#0001",
+                           "Parent":  "USB\\ROOT_HUB30\\4\u00262dd5b14d\u00260\u00260"
+                       }
+                   ],
+    "Device_368B_8D81":  [
+                             {
+                                 "Class":  "Bluetooth",
+                                 "Name":  "Generic Bluetooth Adapter",
+                                 "InstanceId":  "USB\\VID_368B\u0026PID_8D81\u0026MI_00\\6\u002628B24B5D\u00262\u00260000",
+                                 "Status":  "OK"
+                             },
+                             {
+                                 "Class":  "Net",
+                                 "Name":  "AIC8800D80 USB WiFi",
+                                 "InstanceId":  "USB\\VID_368B\u0026PID_8D81\u0026MI_02\\6\u002628B24B5D\u00262\u00260002",
+                                 "Status":  "OK"
+                             },
+                             {
+                                 "Class":  "USB",
+                                 "Name":  "USB Composite Device",
+                                 "InstanceId":  "USB\\VID_368B\u0026PID_8D81\\20220103",
+                                 "Status":  "OK"
+                             }
+                         ],
+    "PhysicalDisks":  [
+                          {
+                              "DeviceId":  "2",
+                              "Model":  "KINGSTON SNV2S500G",
+                              "Bus":  "NVMe",
+                              "Media":  "SSD",
+                              "SizeGB":  466,
+                              "Firmware":  "SBN00100"
+                          },
+                          {
+                              "DeviceId":  "1",
+                              "Model":  "KINGSTON SA400S37120G",
+                              "Bus":  "SATA",
+                              "Media":  "SSD",
+                              "SizeGB":  112,
+                              "Firmware":  "03070009"
+                          },
+                          {
+                              "DeviceId":  "0",
+                              "Model":  "KINGSTON SA400S37120G",
+                              "Bus":  "SATA",
+                              "Media":  "SSD",
+                              "SizeGB":  112,
+                              "Firmware":  "03090005"
+                          }
+                      ],
+    "Disks":  [
+                  {
+                      "Number":  0,
+                      "Model":  "KINGSTON SA400S37120G",
+                      "PartitionStyle":  "GPT",
+                      "IsBoot":  false,
+                      "IsSystem":  false,
+                      "SizeGB":  112
+                  },
+                  {
+                      "Number":  1,
+                      "Model":  "KINGSTON SA400S37120G",
+                      "PartitionStyle":  "GPT",
+                      "IsBoot":  false,
+                      "IsSystem":  true,
+                      "SizeGB":  112
+                  },
+                  {
+                      "Number":  2,
+                      "Model":  "KINGSTON SNV2S500G",
+                      "PartitionStyle":  "GPT",
+                      "IsBoot":  true,
+                      "IsSystem":  false,
+                      "SizeGB":  466
+                  }
+              ],
+    "Partitions":  [
+                       {
+                           "Disk":  0,
+                           "Part":  1,
+                           "Type":  "Reserved",
+                           "GptType":  "{e3c9e316-0b5c-4db8-817d-f92df00215ae}",
+                           "Letter":  "\u0000",
+                           "SizeGB":  0.02
+                       },
+                       {
+                           "Disk":  0,
+                           "Part":  2,
+                           "Type":  "Basic",
+                           "GptType":  "{ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}",
+                           "Letter":  "D",
+                           "SizeGB":  111.77
+                       },
+                       {
+                           "Disk":  1,
+                           "Part":  1,
+                           "Type":  "System",
+                           "GptType":  "{c12a7328-f81f-11d2-ba4b-00a0c93ec93b}",
+                           "Letter":  "\u0000",
+                           "SizeGB":  0.1
+                       },
+                       {
+                           "Disk":  1,
+                           "Part":  2,
+                           "Type":  "Reserved",
+                           "GptType":  "{e3c9e316-0b5c-4db8-817d-f92df00215ae}",
+                           "Letter":  "\u0000",
+                           "SizeGB":  0.02
+                       },
+                       {
+                           "Disk":  1,
+                           "Part":  3,
+                           "Type":  "Basic",
+                           "GptType":  "{ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}",
+                           "Letter":  "E",
+                           "SizeGB":  111.67
+                       },
+                       {
+                           "Disk":  2,
+                           "Part":  1,
+                           "Type":  "Reserved",
+                           "GptType":  "{e3c9e316-0b5c-4db8-817d-f92df00215ae}",
+                           "Letter":  "\u0000",
+                           "SizeGB":  0.02
+                       },
+                       {
+                           "Disk":  2,
+                           "Part":  2,
+                           "Type":  "Basic",
+                           "GptType":  "{ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}",
+                           "Letter":  "C",
+                           "SizeGB":  465.03
+                       },
+                       {
+                           "Disk":  2,
+                           "Part":  3,
+                           "Type":  "Recovery",
+                           "GptType":  "{de94bba4-06d1-4d40-a16a-bfd50179d6ac}",
+                           "Letter":  "\u0000",
+                           "SizeGB":  0.71
+                       }
+                   ],
+    "Volumes":  [
+                    {
+                        "Letter":  "C",
+                        "Label":  "",
+                        "FS":  "NTFS",
+                        "SizeGB":  465.03
+                    },
+                    {
+                        "Letter":  "E",
+                        "Label":  "",
+                        "FS":  "NTFS",
+                        "SizeGB":  111.67
+                    },
+                    {
+                        "Letter":  "D",
+                        "Label":  "",
+                        "FS":  "NTFS",
+                        "SizeGB":  111.77
+                    },
+                    {
+                        "Letter":  "",
+                        "Label":  "",
+                        "FS":  "NTFS",
+                        "SizeGB":  0.71
+                    }
+                ],
+    "StorageControllers":  [
+                               {
+                                   "Class":  "SCSIAdapter",
+                                   "Name":  "Standard NVM Express Controller",
+                                   "InstanceId":  "PCI\\VEN_2646\u0026DEV_5017\u0026SUBSYS_50172646\u0026REV_03\\4\u00261B7609CA\u00260\u002600E8"
+                               },
+                               {
+                                   "Class":  "SCSIAdapter",
+                                   "Name":  "Microsoft Storage Spaces Controller",
+                                   "InstanceId":  "ROOT\\SPACEPORT\\0000"
+                               },
+                               {
+                                   "Class":  "HDC",
+                                   "Name":  "Standard SATA AHCI Controller",
+                                   "InstanceId":  "PCI\\VEN_8086\u0026DEV_A382\u0026SUBSYS_86941043\u0026REV_00\\3\u002611583659\u00260\u0026B8"
+                               },
+                               {
+                                   "Class":  "SCSIAdapter",
+                                   "Name":  "Xvdd SCSI Miniport",
+                                   "InstanceId":  "SWD\\XVDDENUM\\XVDDROOTDEVICE_INSTANCE"
+                               }
+                           ],
+    "ACPI":  [
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\0",
+                     "BiosName":  "\\_SB.PCI0.LPCB.SIO1"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\1",
+                     "BiosName":  "\\_SB.PCI0.PDRC"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\2",
+                     "BiosName":  "\\_SB.PCI0.LPCB.LDRC"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\5",
+                     "BiosName":  "\\_SB.URSC"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fan",
+                     "InstanceId":  "ACPI\\PNP0C0B\\0",
+                     "BiosName":  "\\_TZ.FAN0"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fan",
+                     "InstanceId":  "ACPI\\PNP0C0B\\1",
+                     "BiosName":  "\\_TZ.FAN1"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fan",
+                     "InstanceId":  "ACPI\\PNP0C0B\\2",
+                     "BiosName":  "\\_TZ.FAN2"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fan",
+                     "InstanceId":  "ACPI\\PNP0C0B\\3",
+                     "BiosName":  "\\_TZ.FAN3"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fan",
+                     "InstanceId":  "ACPI\\PNP0C0B\\4",
+                     "BiosName":  "\\_TZ.FAN4"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Processor Aggregator",
+                     "InstanceId":  "ACPI\\ACPI000C\\2\u0026DABA3FF\u00260",
+                     "BiosName":  "\\_SB.PAGD"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Sleep Button",
+                     "InstanceId":  "ACPI\\PNP0C0E\\2\u0026DABA3FF\u00260",
+                     "BiosName":  "\\_SB.SLPB"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\ASUSCONTROLCENTER",
+                     "BiosName":  "\\ACCE"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Thermal Zone",
+                     "InstanceId":  "ACPI\\THERMALZONE\\TZ00",
+                     "BiosName":  "\\_TZ.TZ00"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Programmable interrupt controller",
+                     "InstanceId":  "ACPI\\PNP0000\\4\u002629E41C34\u00260",
+                     "BiosName":  "\\_SB.PCI0.LPCB.IPIC"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\ASUSWMI",
+                     "BiosName":  "\\AMW0"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "High precision event timer",
+                     "InstanceId":  "ACPI\\PNP0103\\0",
+                     "BiosName":  "\\_SB.PCI0.LPCB.HPET"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\INT3F0D\\4\u002629E41C34\u00260",
+                     "BiosName":  "\\_SB.PCI0.LPCB.CWDT"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Intel(R) Serial IO GPIO Host Controller - INT3451",
+                     "InstanceId":  "ACPI\\INT3451\\3\u002611583659\u00260",
+                     "BiosName":  "\\_SB.PCI0.GPI0"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\PCHRESV",
+                     "BiosName":  "\\_SB.PCI0.PRRE"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_1",
+                     "BiosName":  "\\_SB.PR00"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_2",
+                     "BiosName":  "\\_SB.PR01"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_3",
+                     "BiosName":  "\\_SB.PR02"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_4",
+                     "BiosName":  "\\_SB.PR03"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_5",
+                     "BiosName":  "\\_SB.PR04"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_6",
+                     "BiosName":  "\\_SB.PR05"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_7",
+                     "BiosName":  "\\_SB.PR06"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_8",
+                     "BiosName":  "\\_SB.PR07"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_9",
+                     "BiosName":  "\\_SB.PR08"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_A",
+                     "BiosName":  "\\_SB.PR09"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_B",
+                     "BiosName":  "\\_SB.PR10"
+                 },
+                 {
+                     "Class":  "Processor",
+                     "Name":  "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+                     "InstanceId":  "ACPI\\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_165_-_INTEL(R)_CORE(TM)_I5-10400F_CPU_@_2.90GHZ\\_C",
+                     "BiosName":  "\\_SB.PR11"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\SAMPLEDEV",
+                     "BiosName":  "\\_SB.WFDE"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\AWW",
+                     "BiosName":  "\\AWW0"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Numeric data processor",
+                     "InstanceId":  "ACPI\\PNP0C04\\4\u002629E41C34\u00260",
+                     "BiosName":  "\\_SB.PCI0.LPCB.MATH"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\TESTDEV",
+                     "BiosName":  "\\_SB.WFTE"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "PCI Express Root Complex",
+                     "InstanceId":  "ACPI\\PNP0A08\\0",
+                     "BiosName":  "\\_SB.PCI0"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Power Button",
+                     "InstanceId":  "ACPI\\PNP0C0C\\2\u0026DABA3FF\u00260",
+                     "BiosName":  "\\_SB.PWRB"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\SARESV",
+                     "BiosName":  "\\_SB.PCI0.SRRE"
+                 },
+                 {
+                     "Class":  "SecurityDevices",
+                     "Name":  "Trusted Platform Module 2.0",
+                     "InstanceId":  "ACPI\\MSFT0101\\1",
+                     "BiosName":  "\\_SB.TPM"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Fixed Feature Button",
+                     "InstanceId":  "ACPI\\FIXEDBUTTON\\2\u0026DABA3FF\u00260",
+                     "BiosName":  null
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Microsoft Windows Management Interface for ACPI",
+                     "InstanceId":  "ACPI\\PNP0C14\\ASUSBACKUPWMI",
+                     "BiosName":  "\\ABAW"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "ACPI Wake Alarm",
+                     "InstanceId":  "ACPI\\ACPI000E\\2\u0026DABA3FF\u00260",
+                     "BiosName":  "\\_SB.AWAC"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Intel(R) Power Engine Plug-in",
+                     "InstanceId":  "ACPI\\INT33A1\\1",
+                     "BiosName":  "\\_SB.PEPD"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\PNP0C02\\IOTRAPS",
+                     "BiosName":  "\\_SB.PCI0.IOTR"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "System timer",
+                     "InstanceId":  "ACPI\\PNP0100\\4\u002629E41C34\u00260",
+                     "BiosName":  "\\_SB.PCI0.LPCB.TIMR"
+                 },
+                 {
+                     "Class":  "System",
+                     "Name":  "Motherboard resources",
+                     "InstanceId":  "ACPI\\INT340E\\2\u0026DABA3FF\u00260",
+                     "BiosName":  "\\_SB.PTID"
+                 }
+             ]
+}
